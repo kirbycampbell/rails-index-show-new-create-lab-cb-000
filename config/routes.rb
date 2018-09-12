@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   resources :coupons, only: [:index, :new, :create]
   get '/coupons/:id' => 'coupons#show', as: 'coupons'
-  post '/create' => 'coupons#create'
+  #post '/create' => 'coupons#create'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'coupons#index'
