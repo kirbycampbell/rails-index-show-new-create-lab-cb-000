@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   post '/create' => 'coupons#create'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  root 'coupons#index'
+  #root 'coupons#index'
 
 
   # Example of regular route:
